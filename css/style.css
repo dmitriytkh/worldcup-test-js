@@ -1,0 +1,59 @@
+* {
+    user-select: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+a {
+	color: blue;
+	margin: 0 2px;
+	cursor: pointer;
+}
+
+li {
+    margin: 5px 0;
+    list-style-type: none;
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.menu .main-menu {
+    font-size: 18px;
+    cursor: pointer;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu.open ul {
+    display: block;
+}
+
+.menu.open ul li {
+    background-color: palevioletred;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    width: 50px;
+}
+
+#group-container table {
+    display: inline-block;
+    margin: 10px;
+}
